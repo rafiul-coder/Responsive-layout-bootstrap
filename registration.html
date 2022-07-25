@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Registration</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <div class="row">
+        <div
+          class="col-md-6 d-flex flex-column justify-content-center align-items-center"
+        >
+          <h3 class="my-3">Please Register</h3>
+          <form>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
+            <select
+              class="form-select mb-3"
+              aria-label="Default select example"
+            >
+              <option selected>Please select one</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Common">Common</option>
+            </select>
+            <div class="form-check mb-3">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault">
+                Accept Out <a href=""> Terms and Conditions</a>
+              </label>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Register" />
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="images/signup.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
